@@ -1,0 +1,24 @@
+.select2-container.select2  {
+    width: 100% !important;
+}
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #E4E6EF !important;
+}
+
+.select2-container .select2-selection--single{
+    height: calc(1.6em + 0.75rem + 2px) !important;  
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    border-right: none !important;
+    color: transparent !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover{
+    color: #333 !important;
+}
+
+.dropdown-toggle-no-caret::after {
+    display: none !important;
+}
